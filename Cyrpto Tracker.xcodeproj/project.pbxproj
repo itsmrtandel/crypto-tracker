@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D45B8B1829DE2C5C007CFA09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45B8B1729DE2C5C007CFA09 /* AppDelegate.swift */; };
+		D45B8B1A29DE2C5C007CFA09 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45B8B1929DE2C5C007CFA09 /* SceneDelegate.swift */; };
+		D45B8B1C29DE2C5C007CFA09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45B8B1B29DE2C5C007CFA09 /* ViewController.swift */; };
+		D45B8B1F29DE2C5C007CFA09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D45B8B1D29DE2C5C007CFA09 /* Main.storyboard */; };
+		D45B8B2129DE2C5E007CFA09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D45B8B2029DE2C5E007CFA09 /* Assets.xcassets */; };
+		D45B8B2429DE2C5E007CFA09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D45B8B2229DE2C5E007CFA09 /* LaunchScreen.storyboard */; };
+		D45B8B2E29DE3354007CFA09 /* CoinManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45B8B2D29DE3354007CFA09 /* CoinManager.swift */; };
+		D45B8B3029DE3363007CFA09 /* CoinData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45B8B2F29DE3363007CFA09 /* CoinData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D45B8B1429DE2C5C007CFA09 /* Cyrpto Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cyrpto Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D45B8B1729DE2C5C007CFA09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D45B8B1929DE2C5C007CFA09 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D45B8B1B29DE2C5C007CFA09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D45B8B1E29DE2C5C007CFA09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D45B8B2029DE2C5E007CFA09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D45B8B2329DE2C5E007CFA09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D45B8B2529DE2C5E007CFA09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D45B8B2D29DE3354007CFA09 /* CoinManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinManager.swift; sourceTree = "<group>"; };
+		D45B8B2F29DE3363007CFA09 /* CoinData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D45B8B1129DE2C5C007CFA09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D45B8B0B29DE2C5C007CFA09 = {
+			isa = PBXGroup;
+			children = (
+				D45B8B1629DE2C5C007CFA09 /* Cyrpto Tracker */,
+				D45B8B1529DE2C5C007CFA09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D45B8B1529DE2C5C007CFA09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D45B8B1429DE2C5C007CFA09 /* Cyrpto Tracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D45B8B1629DE2C5C007CFA09 /* Cyrpto Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				D45B8B1729DE2C5C007CFA09 /* AppDelegate.swift */,
+				D45B8B1929DE2C5C007CFA09 /* SceneDelegate.swift */,
+				D45B8B3129DE3368007CFA09 /* Model */,
+				D45B8B2C29DE331A007CFA09 /* View */,
+				D45B8B2B29DE330D007CFA09 /* Controller */,
+				D45B8B2029DE2C5E007CFA09 /* Assets.xcassets */,
+				D45B8B2229DE2C5E007CFA09 /* LaunchScreen.storyboard */,
+				D45B8B2529DE2C5E007CFA09 /* Info.plist */,
+			);
+			path = "Cyrpto Tracker";
+			sourceTree = "<group>";
+		};
+		D45B8B2B29DE330D007CFA09 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D45B8B1B29DE2C5C007CFA09 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D45B8B2C29DE331A007CFA09 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D45B8B1D29DE2C5C007CFA09 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D45B8B3129DE3368007CFA09 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D45B8B2D29DE3354007CFA09 /* CoinManager.swift */,
+				D45B8B2F29DE3363007CFA09 /* CoinData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D45B8B1329DE2C5C007CFA09 /* Cyrpto Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D45B8B2829DE2C5E007CFA09 /* Build configuration list for PBXNativeTarget "Cyrpto Tracker" */;
+			buildPhases = (
+				D45B8B1029DE2C5C007CFA09 /* Sources */,
+				D45B8B1129DE2C5C007CFA09 /* Frameworks */,
+				D45B8B1229DE2C5C007CFA09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cyrpto Tracker";
+			productName = "Cyrpto Tracker";
+			productReference = D45B8B1429DE2C5C007CFA09 /* Cyrpto Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D45B8B0C29DE2C5C007CFA09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					D45B8B1329DE2C5C007CFA09 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = D45B8B0F29DE2C5C007CFA09 /* Build configuration list for PBXProject "Cyrpto Tracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D45B8B0B29DE2C5C007CFA09;
+			productRefGroup = D45B8B1529DE2C5C007CFA09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D45B8B1329DE2C5C007CFA09 /* Cyrpto Tracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D45B8B1229DE2C5C007CFA09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D45B8B2429DE2C5E007CFA09 /* LaunchScreen.storyboard in Resources */,
+				D45B8B2129DE2C5E007CFA09 /* Assets.xcassets in Resources */,
+				D45B8B1F29DE2C5C007CFA09 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D45B8B1029DE2C5C007CFA09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D45B8B2E29DE3354007CFA09 /* CoinManager.swift in Sources */,
+				D45B8B1C29DE2C5C007CFA09 /* ViewController.swift in Sources */,
+				D45B8B3029DE3363007CFA09 /* CoinData.swift in Sources */,
+				D45B8B1829DE2C5C007CFA09 /* AppDelegate.swift in Sources */,
+				D45B8B1A29DE2C5C007CFA09 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D45B8B1D29DE2C5C007CFA09 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D45B8B1E29DE2C5C007CFA09 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D45B8B2229DE2C5E007CFA09 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D45B8B2329DE2C5E007CFA09 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D45B8B2629DE2C5E007CFA09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D45B8B2729DE2C5E007CFA09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D45B8B2929DE2C5E007CFA09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Cyrpto Tracker/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amittandel.Cyrpto-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D45B8B2A29DE2C5E007CFA09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Cyrpto Tracker/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amittandel.Cyrpto-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D45B8B0F29DE2C5C007CFA09 /* Build configuration list for PBXProject "Cyrpto Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D45B8B2629DE2C5E007CFA09 /* Debug */,
+				D45B8B2729DE2C5E007CFA09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D45B8B2829DE2C5E007CFA09 /* Build configuration list for PBXNativeTarget "Cyrpto Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D45B8B2929DE2C5E007CFA09 /* Debug */,
+				D45B8B2A29DE2C5E007CFA09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D45B8B0C29DE2C5C007CFA09 /* Project object */;
+}
